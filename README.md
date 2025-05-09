@@ -1,32 +1,32 @@
 # 🛠️ myprivateserver-docs
 
-📌 **Proyecto de red doméstica y servidor personal en Ubuntu Server**, documentado paso a paso por Gilmer Ospina Palacio.
+📌 A home network and personal server project built on Ubuntu Server, documented step by step by Gilmer Ospina Palacio.
 
-Este repositorio contiene la documentación pública del proyecto `myprivateserver`, el cual tiene como objetivo montar, administrar y automatizar un servidor casero con funcionalidades como VPN, almacenamiento de archivos, acceso remoto, contenedores, máquinas virtuales y más, todo sobre Ubuntu Server.
-
----
-
-## 📂 Estructura
-
-- `acceso-remoto/` → Guías de conexión VPN y acceso desde redes externas.
-- Más carpetas se irán añadiendo conforme avance la implementación.
+This repository contains the public documentation for the `myprivateserver` project. The goal is to deploy, manage, and automate a personal home server with features like VPN, file storage, remote access, containers, virtual machines, and more—entirely based on Ubuntu Server.
 
 ---
 
-## 🔍 ¿Qué encontrarás aquí?
+## 📂 Structure
 
-✔️ Pasos documentados de configuraciones realizadas  
-✔️ Capturas de pantalla y explicaciones claras  
-✔️ Enlaces hacia archivos técnicos alojados en el repositorio privado (sin exponer datos sensibles)
-
----
-
-## ⚖️ Licencia
-
-Este proyecto está licenciado bajo la [MIT License](LICENSE), lo que permite su uso, modificación y redistribución, siempre que se conserve la atribución al autor.  
-> _"Úsalo con libertad, aprende, adapta... y construye tu propio servidor!"_
+- `acceso-remoto/` → VPN connection guides and remote access from external networks.
+- More folders will be added as the implementation progresses.
 
 ---
 
-👤 Autor: [Gilmerop](https://github.com/Gilmerop)  
-🗓️ Última actualización: `{{fecha}}`
+## 🔍 What you'll find here
+
+✔️ Step-by-step documentation of completed configurations  
+✔️ Screenshots and clear explanations  
+✔️ References to private configuration files (no sensitive data exposed)
+
+---
+
+## ⚖️ License
+
+This project is licensed under the [MIT License](LICENSE), which allows use, modification, and redistribution as long as attribution to the author is maintained.  
+> _"Use it freely, learn from it, adapt it... and build your own server!"_
+
+---
+
+👤 Author: [Gilmerop](https://github.com/Gilmerop)  
+🗓️ Last updated: {{date}}
