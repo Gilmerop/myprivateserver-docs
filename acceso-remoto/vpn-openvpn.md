@@ -1,46 +1,35 @@
-# Acceso Remoto por VPN (OpenVPN)
+## 🛠️ Prerequisites
 
-Guía para conectarse de forma remota a la red doméstica a través de un servidor OpenVPN instalado en el router TP-Link AX55, como parte del proyecto **myprivateserver**.
-
----
-
-## 🎯 Objetivo
-
-Permitir el acceso seguro a recursos internos desde el exterior usando un cliente VPN (Windows, Android, etc.).
+- OpenVPN server enabled on the router  
+- Certificate generated and `.ovpn` file exported  
+- Port forwarding or active DMZ  
+- OpenVPN client installed
 
 ---
 
-## 🛠 Requisitos previos
+## 🌐 Connection Details
 
-- Servidor OpenVPN habilitado en el router
-- Certificado generado y archivo `.ovpn` exportado
-- Redireccionamiento de puerto o DMZ activo
-- Cliente OpenVPN instalado
+> Exact data (public IP, keys) is not published for security reasons. It is documented in the private repository.
 
----
-
-## 🌐 Datos de conexión
-
-> Los datos exactos (IP pública, claves) no se publican por seguridad. Están documentados en el repositorio privado.
-
-- **Puerto:** `1194`
-- **Protocolo:** `UDP`
-- **Subred VPN:** `10.8.0.0/24`
-- **Archivo de configuración:** `.ovpn`
-- **Modo de acceso:** Solo red interna (en pruebas) → pendiente acceso externo
+- **Port:** `1194`  
+- **Protocol:** `UDP`  
+- **VPN Subnet:** `10.8.0.0/24`  
+- **Configuration File:** `.ovpn`  
+- **Access Mode:** Internal network only (in testing) → external access pending
 
 ---
 
-## 🧪 Pruebas realizadas
+## ✅ Tests Performed
 
-- ✅ Conexión desde dispositivo interno
-- 🔜 Conexión desde red externa (en espera de DMZ)
+- ✅ Connection from internal device  
+- ⏳ Connection from external network (pending DMZ setup)
 
 ---
 
-## 📂 Archivos involucrados
+## 📁 Related Files
 
-- Configuración del servidor OpenVPN (ver `myprivateserver-config/vpn/openvpn-servidor.md`)
+- OpenVPN server configuration (see `myprivateserver-config/vpn/openvpn-servidor.md`)
+
 
 ---
 
