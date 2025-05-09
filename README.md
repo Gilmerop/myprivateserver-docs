@@ -29,4 +29,4 @@ This project is licensed under the [MIT License](LICENSE), which allows use, mod
 ---
 
 👤 Author: [Gilmerop](https://github.com/Gilmerop)  
-🗓️ Last updated: {{date}}
+🗓️ Last updated: May 9, 2025
