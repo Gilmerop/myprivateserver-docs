@@ -1,47 +1,32 @@
-# 🛡️ Configuración de Servidor WireGuard - TP-Link AX55
+# ⚙️ WireGuard Server Configuration – TP-Link AX55
 
-Documentación de la futura implementación del servidor VPN **WireGuard** desde el router TP-Link AX55.
-
----
-
-## 🔧 Requisitos previos
-
-- Soporte para WireGuard habilitado en el router
-- Generación de claves (privada, pública)
-- Definición de pares permitidos (clientes)
-- Redireccionamiento de puerto o DMZ activo
-- Cliente WireGuard instalado (PC o móvil)
+This file will document the future setup of the WireGuard VPN server on the TP-Link AX55 router.
 
 ---
 
-## 🌐 Datos de conexión
+## 🔧 Expected Parameters
 
-⚠️ *La IP pública y claves no se publican por seguridad. Datos técnicos están en el repositorio privado.*
-
-- **Puerto:** `51820` (por defecto)
-- **Protocolo:** `UDP`
-- **Red virtual:** `10.8.x.x/24` o similar
-- **Interface de red:** `wg0`
-- **Claves:** almacenadas en repositorio privado
-
----
-
-## ✅ Pruebas realizadas
-
-- [ ] Conexión desde dispositivo interno
-- [ ] Conexión desde red externa (en espera de DMZ)
+- **Port:** `51820` (default)  
+- **Protocol:** `UDP`  
+- **Virtual network:** `10.8.x.x` or similar  
+- **Interface:** `wg0`  
+- **Keys:**  
+  - 🔐 Server private key  
+  - 🗝️ Server public key  
+  - 🧾 Public keys of allowed clients
 
 ---
 
-## 📂 Archivos involucrados
+## ⚙️ Router Configuration
 
-- Configuración de WireGuard en el router:  
-  `myprivateserver-config/vpn/wireguard-servidor.md`
+Expected path:  
+`Advanced > VPN Server > WireGuard`
 
-- Archivos de configuración de clientes:  
-  `myprivateserver-config/vpn/clients/` (uno por cliente)
+> Pending activation.
 
 ---
 
-👨‍💻 Autor: Gilmer  
-📅 Última actualización: `{{coloca la fecha aquí}}`
+## 📌 Current Status
+
+- [ ] WireGuard enabled on the router
+
