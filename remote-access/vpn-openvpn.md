@@ -22,7 +22,7 @@
 ## ✅ Tests Performed
 
 - ✅ Connection from internal device  
-- ⏳ Connection from external network (pending DMZ setup)
+- ✅ Connection from external network
 
 ---
 
