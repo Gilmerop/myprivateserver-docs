@@ -1,3 +1,4 @@
+
 # 🗺️ Project Roadmap
 
 This document outlines the planned phases and current status of the `myprivateserver` project.
@@ -7,10 +8,9 @@ This document outlines the planned phases and current status of the `myprivatese
 - [x] Initial server structure established (under continuous improvement)
 - [x] Internal network fully configured
 - [x] DMZ and VPN (OpenVPN) tested and functional
+- [x] Install and configure Proxmox VE on main server hardware
+- [x] Deploy Ubuntu Server as primary VM
+- [x] Set up additional VMs (e.g. Windows Server)
+- [x] Configure internal services (e.g. Docker, file sync, backups)
 
 ## 🔜 Upcoming Tasks
-
-- [ ] Install and configure Proxmox VE on main server hardware
-- [ ] Deploy Ubuntu Server as primary VM
-- [ ] Set up additional VMs (e.g. Windows Server)
-- [ ] Configure internal services (e.g. Docker, file sync, backups)
