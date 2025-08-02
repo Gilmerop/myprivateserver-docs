@@ -1,0 +1,2 @@
+# myprivateserver-docs
+_A personal self-hosted lab powered by Proxmox VE, running multiple server OSes like Ubuntu Server and Windows Server_  This repository tracks the progress and configuration of a self-hosted infrastructure project using [Proxmox VE](https://www.proxmox.com/en/proxmox-ve) and multiple server OSes such as [Ubuntu Server](https://ubuntu.com/server), Windows Server, and others.   It is currently under construction and publicly documented to share technical insights and structure.
