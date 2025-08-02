@@ -24,14 +24,4 @@
 - ✅ Connection from internal device  
 - ✅ Connection from external network
 
----
 
-## 📁 Related Files
-
-- OpenVPN server configuration (see `myprivateserver-config/vpn/openvpn-servidor.md`)
-
-
----
-
-✍️ Autor: Gilmer  
-📁 Proyecto: myprivateserver  
